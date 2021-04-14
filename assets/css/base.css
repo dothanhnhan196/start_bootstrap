@@ -1,0 +1,61 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #1abc9c;
+    --text-color: #2c3e50;
+    --second-color: #2c3e50;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.custom-line {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 24px;
+}
+
+.line-left {
+    width: 100%;
+    max-width: 11.2rem;
+    height: 0.4rem;
+    margin-right: 1.6rem;
+    background-color: var(--white-color);
+}
+
+.custom-line i {
+    font-size: 3.2rem;
+}
+
+.line-right {
+    width: 100%;
+    max-width: 11.2rem;
+    height: 0.4rem;
+    margin-left: 1.6rem;
+    background-color: var(--white-color);
+}
+
+.group {
+    padding: 9.6rem 0;
+}
