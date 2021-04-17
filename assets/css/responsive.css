@@ -1,0 +1,53 @@
+/* Mobile */
+
+@media (max-width: 740px) {
+    .navbar-logo {
+        font-size: 1.5rem;
+    }
+    .menu-mobile {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    #banner {
+        padding: 17rem 0 9.6rem;
+    }
+    .banner-title {
+        font-size: 3.4rem;
+    }
+    .banner-text {
+        font-size: 2rem;
+    }
+    .portfolio-list .mt-48 {
+        margin-top: 0;
+    }
+    .portfolio-item:nth-child(1),
+    .portfolio-item:nth-child(2),
+    .portfolio-item:nth-child(3),
+    .portfolio-item:nth-child(4),
+    .portfolio-item:nth-child(5),
+    .portfolio-item:nth-child(6) {
+        margin-top: 4.8rem;
+    }
+    .footer-item:nth-child(2),
+    .footer-item:nth-child(3) {
+        margin-top: 48px;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width:740px) and (max-width: 1024px) {
+    .menu-mobile {
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    .form-contact {
+        width: 540px;
+    }
+    .footer-item:nth-child(1),
+    .footer-item:nth-child(2),
+    .footer-item:nth-child(3) {
+        margin-top: 4.8rem;
+    }
+}

@@ -39,10 +39,23 @@
     color: var(--primary-color);
 }
 
-.navbar .nav-item>.nav-link.active {
+
+/* .navbar .nav-item>.nav-link.active {
     color: var(--white-color);
     border-radius: 8px;
     background: #1abc9c;
+} */
+
+.menu-mobile {
+    background: var(--primary-color);
+    text-transform: uppercase;
+    color: var(--white-color);
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.menu-icon {
+    line-height: 1.6rem;
 }
 
 
